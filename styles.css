@@ -1,0 +1,50 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+
+header{
+    width: 1080px; 
+    background-size:cover;
+    background-repeat:no-repeat;
+    /* position:relative; */
+     height: 400px; 
+    background-image: url(./assets/cochebmw.jpeg);    
+}
+nav::after{
+    content: "";
+    background-color: black;
+    width: 65%;
+    height: 1px;
+    position: absolute;
+    top:10%;
+}
+.nav__ul--anchors > li{
+    padding: 10px;
+    display:flex;
+    align-items: center;
+}
+.nav__ul--icons > li{
+    display: flex;
+}
+li img{
+    width: 50%;
+}
+.logo{
+    width: 15%;
+}
+.header__div--button{
+    padding: 10px;
+    background-color: blue;
+    border: ;
+    /* border-radius: ; */
+}
